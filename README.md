@@ -1,10 +1,10 @@
 # tag-flow
 
-This script is intended to continuosly create tags according with the [semantic versioning specs](http://semver.org/) in the current head of a git repo. This script only increments the PATH of the previously tagged version, to increment the MAJOR or MINOR number it is necessary to manually create a tag
+This script is intended to continuosly create tags according with the [semantic versioning specs](http://semver.org/) in the current head of a git repo. This script only increments the PATCH of the previously tagged version, to increment the MAJOR or MINOR number it is necessary to manually create a tag
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
 
 ### Prerequisities
 
@@ -30,19 +30,15 @@ Creating new tag: v1.0.45 (previous tag for branch: v1.0.44)
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning off course. For the versions available, see the [tags on this repository](https://github.com/bq/tag-flow/tags). 
+We use [SemVer](http://semver.org/) for versioning of course. For the versions available, see the [tags on this repository](https://github.com/bq/tag-flow/tags). 
 
 ## Authors
 
-* **Sebastián Varela** - *Initial work* - [sebastianvarela](https://github.com/sebastianvarela)
-* **Iván Martinez** - *Initial work* - [imartinez](https://github.com/imartinez)
+* **Sebastián Varela** - *Initial work* 
+* **Iván Martinez** - *Initial work*
 
 See also the list of [contributors](https://github.com/bq/tag-flow/contributors) who participated in this project.
 
 ## License
 
 This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) file for details
-
-## Acknowledgments
-
-* This script is used on our CI system to automaticaly tag a version on every snapshot/release
