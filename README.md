@@ -30,7 +30,7 @@ Creating new tag: v1.0.45 (previous tag for branch: v1.0.44)
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning of course. For the versions available, see the [tags on this repository](https://github.com/bq/tag-flow/tags). 
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/bq/tag-flow/tags). 
 
 ## Authors
 
