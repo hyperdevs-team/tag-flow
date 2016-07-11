@@ -37,8 +37,6 @@ We use [SemVer](http://semver.org/) for versioning of course. For the versions a
 * **Sebastián Varela** - *Initial work* 
 * **Iván Martinez** - *Initial work*
 
-See also the list of [contributors](https://github.com/bq/tag-flow/contributors) who participated in this project.
-
 ## License
 
 This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) file for details
