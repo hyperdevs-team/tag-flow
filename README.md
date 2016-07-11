@@ -37,7 +37,7 @@ We use [SemVer](http://semver.org/) for versioning off course. For the versions 
 * **Sebastián Varela** - *Initial work* - [sebastianvarela](https://github.com/sebastianvarela)
 * **Iván Martinez** - *Initial work* - [imartinez](https://github.com/imartinez)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/bq/tag-flow/contributors) who participated in this project.
 
 ## License
 
