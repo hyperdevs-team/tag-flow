@@ -1,6 +1,6 @@
 # tag-flow
 
-This script is intended to continuosly create tags according with the [semantic versioning specs](http://semver.org/) in the current head of a git repo. This script only increments the PATCH of the previously tagged version, to increment the MAJOR or MINOR number it is necessary to manually create a tag
+This script is intended to continuosly create tags according to the [semantic versioning specs](http://semver.org/) in the current head of a git repo. This script only increments the PATCH of the previously tagged version, to increment the MAJOR or MINOR number it is necessary to manually create a tag.
 
 ## Getting Started
 
