@@ -1,6 +1,6 @@
 # tag-flow
 
-This script is intended to continuosly create tags according to the [semantic versioning specs](http://semver.org/) in the current head of a git repo. This script only increments the PATCH of the previously tagged version, to increment the MAJOR or MINOR number it is necessary to manually create a tag.
+This script is intended to continuosly create tags according to the [semantic versioning specs](http://semver.org/) in the current head of a git repo. This script only increments the PATCH of the previously tagged version, to increment the MAJOR or MINOR number it is necessary to manually create a tag or use one of these argument: `bump-minor` to bump minor version, `bump-major` to bump major version.
 
 ## Getting Started
 
@@ -17,15 +17,23 @@ Python 2.7+
 ```
 git submodule add git@github.com:bq/tag-flow.git
 ```
-- Inside the repo, use as:
+- Inside the repo, use one of these:
 ```
-tag tag-flow/tag.py
+python tag-flow/tag.py
+python tag-flow/tag.py bump-minor
+python tag-flow/tag.py bump-major
 ```
 
 Sample output:
 ```
 # python tag-flow/tag.py
 Creating new tag: v1.0.45 (previous tag for branch: v1.0.44)
+
+# python tag-flow/tag.py bump-minor
+Creating new tag: v1.1.0 (previous tag for branch: v1.0.44)
+
+# python tag-flow/tag.py bump-major
+Creating new tag: v2.0.0 (previous tag for branch: v1.0.44)
 ```
 
 ## Versioning
