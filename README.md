@@ -25,17 +25,20 @@ python tag-flow/tag.py bump-major
 ```
 
 ## Samples
-### Imcrement path
+
+### Increment path
 ```
 # python tag-flow/tag.py
 Creating new tag: v1.0.45 (previous tag for branch: v1.0.44)
 ```
-### Imcrement minor
+
+### Increment minor
 ```
 # python tag-flow/tag.py bump-minor
 Creating new tag: v1.1.0 (previous tag for branch: v1.0.44)
 ```
-### Imcrement major
+
+### Increment major
 ```
 # python tag-flow/tag.py bump-major
 Creating new tag: v2.0.0 (previous tag for branch: v1.0.44)
