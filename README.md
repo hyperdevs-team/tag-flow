@@ -47,7 +47,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* [**Sebastián Varela**] (https://github.com/sebastianvarela) - *Initial work* 
+* **[Sebastián Varela](https://github.com/sebastianvarela)** - *Initial work* 
 * **Iván Martinez** - *Initial work*
 
 ## License
