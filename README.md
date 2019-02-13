@@ -38,7 +38,7 @@ Creating new tag: v1.0.45 (previous tag for branch: v1.0.44)
 Creating new tag: v1.1.0 (previous tag for branch: v1.0.44)
 ```
 
-### Increment major
+### Increment major
 ```
 # python tag-flow/tag.py bump-major
 Creating new tag: v2.0.0 (previous tag for branch: v1.0.44)
