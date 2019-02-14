@@ -65,8 +65,17 @@ def createNewTagOnCurrentHeadIfNotTagged(current_tag, new_tag):
 		print "Creating new tag: {} (previous tag for branch: {})".format(new_tag, current_tag)
 		os.popen("git tag {} HEAD".format(new_tag))
 
+def composeCandidateTagFromArguments():
+	tag = None
+	if len(sys.argv) > 1 and sys.argv[1] == "bump-minor":
+		tag = (current_tag[0], current_tag[1] + 1, 0)
+	elif len(sys.argv) > 1 and sys.argv[1] == "bump-major":
+		tag = (current_tag[0] + 1, 0, 0)
+	else:
+		tag = (current_tag[0], current_tag[1], current_tag[2] + 1)
+	return tag
 
 #run!
 current_tag = getBiggestVersionTagForCurrentBranch()
-new_version_tag = (current_tag[0], current_tag[1], current_tag[2] + 1)
+new_version_tag = composeCandidateTagFromArguments()
 createNewTagOnCurrentHeadIfNotTagged(versionTupleToString(current_tag), versionTupleToString(new_version_tag))
