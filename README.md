@@ -26,7 +26,7 @@ python tag-flow/tag.py bump-major
 
 ## Samples
 
-### Increment path
+### Increment patch
 ```
 # python tag-flow/tag.py
 Creating new tag: v1.0.45 (previous tag for branch: v1.0.44)
