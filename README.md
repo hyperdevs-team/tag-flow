@@ -12,10 +12,14 @@ Python 2.7+
 
 ### Installing
 
-- Tag the first representative commit of your repo to start the "flow" (e.g. v1.0.0)
+- Tag the first representative commit of your repo to start the "flow" (e.g. `v1.0.0`, or `0.5.2`)
 - Copy tag.py in your project or add it as a submodule:
 ```
 git submodule add git@github.com:bq/tag-flow.git
+```
+IMPORTANT: if you use a CI system, make sure your CI user can pull from Github, else use
+```
+git submodule add https://github.com/bq/tag-flow.git
 ```
 - Inside the repo, use one of these:
 ```
