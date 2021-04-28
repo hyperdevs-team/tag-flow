@@ -58,6 +58,10 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 * **[Iván Martinez](https://github.com/imartinez)** - *Initial work*
 * **[Adrián García](https://github.com/adriangl)** - *Special contributor*
 
+## Acknowledgements
+The work in this repository up to April 28th, 2021 was done by [bq](https://github.com/bq).
+Thanks for all the work!!
+
 ## License
 
 This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) file for details
